@@ -1,0 +1,16 @@
+@media (min-width:1000px) {
+    .nav1{
+      margin: 0 150px;
+    }
+  }
+
+.ACERlogo{
+    float: left; 
+    padding: 33px 10px 32px 0;
+}
+
+.service{
+    float: left;
+    padding: 33px 0 32px 0px;
+    font-size: 13px;
+}

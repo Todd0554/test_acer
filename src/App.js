@@ -1,9 +1,9 @@
 import React from "react";
 import './App.css';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar/NavBar';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {router} from './router/index'
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -22,7 +22,6 @@ function App() {
             </Routes>
           </React.Suspense>
       </Router>
-      {/* Footer component */}
       <Footer />
     </div>
   );

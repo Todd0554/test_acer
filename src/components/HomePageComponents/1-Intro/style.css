@@ -1,0 +1,82 @@
+.intro{
+    background-image: url("/public/images/background-1.png");
+    background-size:cover;                      /* <------ */
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+
+
+@media (min-width: 1100px) {
+    .word1{
+        padding-top: 342px;
+        padding-left: 150px;
+        Font-size: 18px;
+        line-height: 26px;
+        Line-height: 144%;
+        Vertical-align: Top;
+    }
+    .word2{
+        margin-top: 13px;
+        padding-left: 150px;
+        width: 653px;
+        height: 119px;
+        font-size: 52px;
+        Font-size: 52px;
+        Line-height: 68px;
+        Line-height: 130%;
+        Vertical-align: Top;
+    }
+    .word3{
+        padding-top: 38px;
+        padding-left: 150px;
+        width: 653px;
+        height: 119px;
+        font-size: 20px;
+    }
+    
+    .btn1{
+        background-color: #04726D;
+        color: #fff;
+        border-radius: 65px;
+        border: 0;
+        width: 199px;
+        height: 64px;
+        margin-left:150px;
+        margin-bottom: 314px;
+    }
+}
+
+@media (max-width: 1099px) {
+    .intro{
+        text-align: center;
+    }
+    .word1{
+        padding-top: 70px;
+        text-align: center;
+    }
+    .word2{
+        padding-top: 13px;
+        text-align: center;
+    }
+    .word3{
+        padding-top: 13px;
+        text-align: center;
+    }
+
+
+    .btn1{
+        background-color: #04726D;
+        color: #fff;
+        border-radius: 65px;
+        border: 0;
+        width: 199px;
+        height: 64px;
+        margin-top: 23px;
+        margin-bottom: 70px;
+    }
+}
+
+.btn1:hover{
+    background-color: #059f97;
+}
