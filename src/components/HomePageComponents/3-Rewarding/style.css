@@ -3,7 +3,14 @@
     background-size:cover;                
     background-repeat:no-repeat;
     background-position: center center;
-    
+}
+
+.btn2{
+    font-family: Arial;
+    height: 30px;
+    border-radius: 65px;
+    background-color:#09257A;
+    color: white;
 }
 
 .btn2:hover{
@@ -26,19 +33,31 @@
     }
 
     .btn2{
-        font-family: Arial;
         font-size: 18px;
         margin-bottom: 400px;
         margin-left: 150px;
-        height: 30px;
-        border-radius: 65px;
-        background-color:#09257A;
-        color: white;
-        padding: 0px, 13px, 0px, 13px;
         width: 263px;
+        padding: 0px, 13px, 0px, 13px;
     }
 }
 
 @media (max-width: 1099px) {
+    .Rewarding{
+        text-align: center;
+    }
+    .word4{
+        padding-top: 70px;
+        text-align: center;
+    }
 
+    .word5{
+        padding-top: 13px;
+    }
+
+    .btn2{
+        
+        font-size: 13px;
+        margin-top: 13px;
+        margin-bottom: 70px;
+    }
 }
