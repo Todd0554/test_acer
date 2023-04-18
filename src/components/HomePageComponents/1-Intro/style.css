@@ -22,9 +22,7 @@
         width: 653px;
         height: 119px;
         font-size: 52px;
-        Font-size: 52px;
         Line-height: 68px;
-        Line-height: 130%;
         Vertical-align: Top;
     }
     .word3{
@@ -58,6 +56,7 @@
     .word2{
         padding-top: 13px;
         text-align: center;
+        font-size: 30px;
     }
     .word3{
         padding-top: 13px;
@@ -70,8 +69,8 @@
         color: #fff;
         border-radius: 65px;
         border: 0;
-        width: 199px;
-        height: 64px;
+        width: 150px;
+        height: 50px;
         margin-top: 23px;
         margin-bottom: 70px;
     }

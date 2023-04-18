@@ -6,8 +6,8 @@ import ACERlogo from './ACERlogo.svg';
 function NavBar() {
     return (
         <div className="nav1">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+                
                     <a class="navbar-brand" href="#">
                         <div className="ACERlogo">
                             <img src={ACERlogo} className="ACER-logo" alt="logo" />
@@ -17,14 +17,14 @@ function NavBar() {
                             Test page
                         </div>
                     </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Overview</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+                                <a class="nav-link" href="#">Overview</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">The Challenge</a>
@@ -37,8 +37,9 @@ function NavBar() {
                             </li>
                         </ul>
                     </div>
-                </div>
+               
             </nav>
+            
         </div>
     )
 }

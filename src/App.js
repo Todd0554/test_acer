@@ -1,16 +1,13 @@
-import React from "react";
-import './App.css';
-import NavBar from './components/NavBar/NavBar';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React from "react"
+import './App.css'
+import NavBar from './components/NavBar/NavBar'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import {router} from './router/index'
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
     <div className="App">
-      {/* NavBar component */}
-      
-      {/* set all the routers in App.js */}
       <Router>
       <NavBar />
         <React.Suspense>

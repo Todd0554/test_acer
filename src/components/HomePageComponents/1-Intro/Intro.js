@@ -10,10 +10,10 @@ function Intro() {
       <div className="word2">
         A test page to demonstrate my skills
       </div>
-      <div className="word3">
+      <p className="word3">
         Motivate top-performing students, assess their <br/>
         progress, and celebrate their achievements.
-      </div>
+      </p>
       {/* <div className="btn"> */}
         <button className="btn1" type="button">Find out more</button>
       {/* </div> */}
