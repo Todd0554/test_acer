@@ -1,0 +1,86 @@
+.challenges{
+    background: url("/public/images/background-3.png");
+    background-size:cover;                
+    background-repeat:no-repeat;
+    background-position: center center;
+    text-align: center;
+    color: #fff;
+    font-family: Poppins;
+}
+
+.word6{
+    margin: 0 auto;
+}
+
+.challenge-hr{
+    margin: auto 150px;
+    height: 2px;
+}
+
+.comp{
+    padding-top: 25px;
+}
+
+.comp img{
+    width: 56.43px;
+    height: 56.43px;
+}
+
+.date1{
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.challengeName{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (min-width: 1221px) {
+    .title-challenge{
+        padding-top:130px;
+        padding-bottom: 23px;;
+    }
+    .word6{
+        font-size: 20px;
+        width: 830px;
+    }
+    .row{
+        margin: auto 218px;
+    }
+    #newRow{
+        margin: auto 248px;
+        padding-bottom: 124px;
+    }
+    .compDa{
+        padding-top: 61px;
+    }
+
+}
+
+@media (max-width: 1220px) {
+    .title-challenge{
+        padding-top:70px;
+        padding-bottom: 15px;;
+    }
+    .word6{
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .row{
+        margin: auto 30px;
+        padding-bottom: 50px;
+    }
+    .chal{
+        padding-top: 40px;
+    }
+    #newRow{
+        margin: auto 30px;
+    }
+    .compDa{
+        padding-top: 30px;
+    }
+}
