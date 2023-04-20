@@ -14,7 +14,7 @@
         font-size:37px;
         padding-bottom: 20.43px;
     }
-    .row{
+    .row1{
         padding-top: 65px;
         padding-bottom: 96px;
     }
@@ -29,12 +29,12 @@
     .available{
         font-size: 15px;
     }
-    .row{
+    .row1{
         padding-top: 40px;
         padding-bottom: 50px;
     }
     .skills{
-        padding-top: 40px;
+        padding-top: 20px;
 
     }
 }

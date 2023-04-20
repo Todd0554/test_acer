@@ -6,10 +6,12 @@
 
 #rowcard{
     margin: auto 30px;
+    padding-top: 30px;
 }
 
 #cardcomp{
     margin: auto 30px;
+    
 }
 
 .cards-component h2{
@@ -38,20 +40,20 @@
     margin-right: 0;
     background-color: #F5F5F5;
     padding: 3.5px;
+    color: black;
+    text-decoration: none;
+    border: #F5F5F5;
 }
 
 .card-text{
     font-weight: 500;
-    size: 16px;
+    font-size: 16px;
     line-height: 22.4px;
     margin-top: 18px;
     float: left;
 }
-
-@media (min-width: 1221px) {
-
-}
-
-@media (max-width: 1220px) {
-    
+.card-text h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
 }

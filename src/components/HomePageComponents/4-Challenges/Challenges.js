@@ -52,7 +52,7 @@ function Challenges() {
         <p >Participation in the challenge is open to all registered Australian schools, with students required to be enrolled in a participating school to take part.</p>
       </div>
 
-      <div className="row">
+      <div className="row row2">
         {challenges.map((e,i) => {
           return (
             <CardChallenges svgURL={e.url} name={e.name} content={e.content}/>

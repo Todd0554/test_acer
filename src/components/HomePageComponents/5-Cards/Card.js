@@ -10,7 +10,7 @@ function Card(props) {
                 <div class="card-date">
                     <h5>{props.date}</h5>
                 </div>
-                <div className="Higher-education">Higher education</div>
+                <button className="Higher-education">Higher education</button>
                 <div class="card-text">
                     <h3>{props.content}</h3>
                 </div>

@@ -15,7 +15,7 @@ function Available() {
       <div>
         Online & multiple-choice
       </div>
-      <div className="row">
+      <div className="row row1">
         <CardAvailable svgURL={math} name="Mathematics"/>
         <CardAvailable svgURL={science} name="Science"/>
         <CardAvailable svgURL={readings} name="Reading"/>

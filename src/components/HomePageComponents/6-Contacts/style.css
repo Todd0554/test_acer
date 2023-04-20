@@ -1,0 +1,86 @@
+.contacts{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 25px;
+    background-color: #F5F5F5;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contacts h2{
+    padding-top:71px;
+    padding-bottom: 13px;
+    line-height: 38px;
+    font-size: 25px;
+}
+
+.contacts p{
+    font-family: "Roboto";
+    font-style: "Regular";
+    Font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 43px;;
+}
+
+/* .contact-row{
+    margin: auto 375px;
+} */
+
+
+
+.contacts a{
+    /* float: left; */
+    color: black;
+    font-family: "Roboto";
+    font-style: "Regular";
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration: underline;
+    float: left;
+    margin-bottom: 13px;
+    margin-top: 10px;
+}
+
+.btn2-con{
+    
+    text-align: left;
+    clear: both;
+    border: 1px solid;
+    height: 30px;
+    width: 79px;
+    padding: 4px 13px;
+    font-size: 14px;
+    color: white;
+    background-color:#236477;
+    border-radius: 65px;
+    
+}
+
+
+
+
+
+
+@media (min-width: 1220px) {
+
+    .row4{
+        margin: auto 375px;
+    }
+    .row4 input{
+        height: 40px;
+        margin-bottom: 14px;
+    }
+
+}
+
+@media (max-width: 1219px) {
+
+    .row4{
+        margin: auto 80px;
+    }
+    .row4 input{
+        height: 40px;
+        margin-bottom: 30px;
+    }
+}

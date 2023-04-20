@@ -14,9 +14,8 @@ function Intro() {
         Motivate top-performing students, assess their <br/>
         progress, and celebrate their achievements.
       </p>
-      {/* <div className="btn"> */}
-        <button className="btn1" type="button">Find out more</button>
-      {/* </div> */}
+      <button className="btn1" type="button">Find out more</button>
+
       
     </div>
   )
