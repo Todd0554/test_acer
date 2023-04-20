@@ -12,6 +12,8 @@
 .service{
     float: left;
     padding: 33px 0 32px 0px;
-    font-size: 13px;
+    font-size: 14.5px;
+    font-family: "Poppins";
+    font-weight: 500;
 }
 
